@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* TAG */
+
+h1{
+	font-weight: bold;
+	font-size: 2.5rem;
+	padding: 2rem;
+	background-color: DodgerBlue;
+	border-bottom: 0.4rem solid black;
+	text-align: center;
+}
+
+input{
+	text-align: center;
+}
+
+/* CLASS */
+
+.body{
+	display: grid;
+	grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+.form{
+	grid-row-start: 2;
+	grid-row-end: 2;
+	
+	text-align: center;
+	font-size: 2rem;
+	
+	padding: 1rem;
+}
+
+.title{
+	
+}
+
+/* ID */
+
+
